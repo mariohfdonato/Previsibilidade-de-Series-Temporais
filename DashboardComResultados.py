@@ -122,7 +122,7 @@ with aba_probabilidade:
         
 with aba_margem:
     
-    col1, col3 = st.columns(3)
+    col1, col3 = st.columns(2)
 
 
     with col1:
