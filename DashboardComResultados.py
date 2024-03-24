@@ -41,7 +41,7 @@ acao = st.selectbox('Selecione o ativo da Carteira', list(dados_varias.columns))
 aba_probabilidade, aba_margem, aba_sobreoautor = st.tabs(['Análise probabilística', 'Análise de média e intervalo de confiança', 'Sobre o autor'])
 
 with aba_probabilidade: 
-    col1, col2, col3 = st.columns(3)
+    col1, col3 = st.columns(2)
 
 
     with col1:
@@ -71,7 +71,7 @@ with aba_probabilidade:
         st.pyplot(fig_6m, use_container_width = True)
 
 
-    with col2:
+    #with col2:
         # previsao 4m
         df_acao2 = pd.DataFrame(np.transpose(previsao_4m[dicionario[acao],:,:])).iloc[::-1]
         df_acao2['indice_bruto'] = list(df_acao2.index)
@@ -122,7 +122,7 @@ with aba_probabilidade:
         
 with aba_margem:
     
-    col1, col2, col3 = st.columns(3)
+    col1, col3 = st.columns(3)
 
 
     with col1:
@@ -166,7 +166,7 @@ with aba_margem:
         #st.pyplot(fig_6m, use_container_width = True)
 
 
-    with col2:
+    #with col2:
         # previsao 4m
         #df_acao2 = pd.DataFrame(np.transpose(previsao_4m[dicionario[acao],:,:])).iloc[::-1]
         #df_acao2['indice_bruto'] = list(df_acao2.index)
