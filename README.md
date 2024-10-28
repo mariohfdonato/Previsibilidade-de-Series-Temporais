@@ -13,6 +13,6 @@ Com esses gráficos, é possível determinar três curvas: uma curva com valor m
 
 <img src="/imagens/newplot.png">
 
-A partir dessas curvas, podemos estimar uma região provável de preço que as ações vão se manter no período de tempo futuro.
+A partir dessas curvas, podemos estimar uma região provável de preço em que as ações vão se manter no período de tempo futuro.
 
 P.S.: Os resultados presentes no Dashboard foram calculados no dia 22/03/2024, com os dados das séries temporais passadas terminando nos valores de fechamento do dia 21/03/2024
