@@ -5,7 +5,7 @@ Fala, pessoal! Este repositório tem como objetivo manter os dados e scripts nec
 De modo mais específico, nesse Dashboard interativo eu coloco alguns resultados que eu obtive a partir de um modelo de Deep Learning que fiz do zero (em Python, utilizando principalmente as bibliotemas Pandas, Numpy, Keras e Tensorflow) para essencialmente tentar prever o preço de diferentes ações no decorrer do tempo. 
 Nesse modelo, tenho por input as séries temporais passadas (período de um mês, por exemplo) de um conjunto escolhido de ações. Esses dados, com os preços de abertura e fechamento de cada dia, são obtidos de maneira automática pela API do Yahoo Finance a partir de um script em Python.
 
-O output típico é um conjunto de gráficos que mostram as probabilidades das ações terem determinado preço em cada instante de tempo num período futuro específico (uma semana ou uma quinzena, por exemplo).
+O output típico desse modelo é um conjunto de gráficos que mostram as probabilidades das ações terem determinado preço em cada instante de tempo num período futuro específico (uma semana ou uma quinzena, por exemplo).
 
 <img src="/imagens/PETR4(mês).png">
 
